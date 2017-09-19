@@ -15,6 +15,11 @@ public class DemoJavaSpringApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		String i = null;
+		if("".equals(i)){
+			i = "doidao";
+		}
+		System.out.println(i);
 	}
 
 }
