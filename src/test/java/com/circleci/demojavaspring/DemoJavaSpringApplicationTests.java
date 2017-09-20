@@ -15,7 +15,7 @@ public class DemoJavaSpringApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		String i = null;
+		String i = "d";
 		if(i.equals("abc")){
 			i = "doidao";
 		}
